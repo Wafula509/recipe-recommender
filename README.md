@@ -15,7 +15,7 @@ The tool outputs:
 
 ## How It Works
 1. **User Inputs**: The user provides details such as their mood, preferred cuisine, and season.
-2. **AI-Powered Recipe Generation**: The system uses AI models (Claude by Anthropic) to generate personalized recipe suggestions, including ingredients, preparation steps, and cooking methods based on the user input.
+
 3. **Recipe Similarity Search**: Pinecone is used to find and display similar recipes using vector similarity, helping the user explore options that fit their mood and preferences.
 4. **Detailed Recipe Kit**: The tool outputs detailed recipes with ingredient lists, preparation time estimates, and mood-based explanations for each dish.
 
@@ -27,18 +27,27 @@ The tool outputs:
 
 ## Installation
 1. **Clone the repository**:
+rkdown
+# AI Recipe Generator
 
-   ```bash
-      git clone https://github.com/yourusername/recipe-ai.git
-      cd recipe-ai
+A Streamlit application that generates personalized recipes based on your mood, cuisine preferences, and season.
 
-2. **Install dependencies**:
+## Features
 
-   Install the required Python packages by running:
-   ```bash
-   pip install -r requirements.txt
+- Personalized recipe recommendations
+- No API keys required
+- Local vector similarity search
+- Dietary preference filtering
+- Beautiful UI with custom styling
 
-3.
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/recipe-app.git
+cd recipe-app
+   ```
+
 4. **Run the Application**:
    To start the Streamlit app, run the following command:
    ```bash
@@ -53,4 +62,5 @@ This will launch the application in your browser, where you can input your mood,
 
 ## Screenshots
 <img width="804" alt="Screenshot 2024-09-13 at 4 32 23 PM" src="https://github.com/user-attachments/assets/9df142d9-bc23-4e43-b3e1-562153efaae9">
+
 
